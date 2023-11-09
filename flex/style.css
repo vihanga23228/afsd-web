@@ -1,0 +1,41 @@
+.item{
+    width: 100px;
+    padding: 20px;
+    background-color: aqua;
+    border-radius: 10px;
+    border: 2px solid black;
+    text-align: center;
+    margin:2px;
+
+}
+.flex_column{
+    display: flex;
+    flex-direction: column;
+}
+.flex_raw{
+    display:flex;
+    flex-direction: row;
+
+}
+.flex_wrap{
+    display: flex;
+    flex-direction:row ;
+    flex-wrap: wrap;
+}
+.flex_center{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.flex_between{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+.flex_around{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}

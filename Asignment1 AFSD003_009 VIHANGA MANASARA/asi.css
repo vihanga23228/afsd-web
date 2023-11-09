@@ -1,0 +1,16 @@
+#style{
+    background-color: rgb(37, 201, 201);
+    padding: 10px;
+    border: solid thin black;
+    border-radius: 10px;
+}
+#style1{
+    background-color:rgb(66, 192, 160) ;
+    padding: 2px;
+    border: solid thin black;
+    border-radius: 10px;
+}
+#textbox1{
+    length: 10px;
+    width: 350px;
+}

@@ -1,0 +1,16 @@
+.box{
+    position: relative;
+    max-width: 500px;
+    top: 0px;
+    left: 50px;
+    right: 50px;
+    border-radius: 10px;
+    border-color: solid black;
+    border-style: ridge;
+    box-shadow: inset0 0 10px rgba(0, 0, 0, 0.2);
+    margin:0 auto; 
+
+}
+body{
+    background-color: white;
+}

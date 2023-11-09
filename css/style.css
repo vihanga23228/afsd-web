@@ -1,0 +1,72 @@
+/* class */
+.tittle2{
+    background-color: blue;
+    color: color-mix(in hsl shorter hue, color percentage, color percentage);
+    padding: 50;
+}
+/* type */
+h2{
+    background-color: blueviolet;
+    border: 20px;
+    border-color: rgb(47, 198, 52);
+}
+/*  id*/
+
+#p{
+    background-color: rgb(238, 221, 32);
+    padding: 30px;
+    bottom: 10px;
+}
+/* child */
+body>h4{
+    background-color: rgb(130, 22, 89);
+    
+    padding:20px;
+}
+/* universal selector */
+
+*{border-color: black;
+    border: solid black;
+margin:0 px;
+
+}
+
+/* box model */
+
+.boxmodel{ 
+    background-color: rgb(36, 156, 226);
+    margin: 40px;
+    border:30px solid black;
+    padding: 40px;
+
+}
+.posi1{
+    position: relative;
+    top: 100px;
+    right:100px;
+    left: 200px;
+}
+
+.abs{
+    position: absolute;
+    bottom: 100px;
+    top:100px;
+}
+.fx{
+    width: 100px;
+    height: 100px;
+    border: 3px;
+    position: fixed;
+    background-color: aqua;
+    margin: 3px;
+    bottom:0px
+
+}
+.sticky{
+    position: sticky;
+    top: 0px;
+    
+
+
+}
+
